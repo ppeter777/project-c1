@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+logging:
+  level:
+    root: warn
+
+spring:
+  application:
+    name: c1
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: My.SQLDialect
+  output:
+    ansi:
+      enabled: always
